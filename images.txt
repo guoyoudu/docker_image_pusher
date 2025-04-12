@@ -1,5 +1,4 @@
-redis:7.2-alpine
-postgres:16-alpine
-docmost/docmost:latest
+--platform linux/amd64 redis:7.2-alpine
+--platform linux/amd64 postgres:16-alpine
+--platform linux/amd64 docmost/docmost:latest
 #支持指定架构
---platform linux/amd64 
