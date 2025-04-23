@@ -1,4 +1,4 @@
---platform linux/amd64 redis:7.2-alpine
---platform linux/amd64 postgres:16-alpine
---platform linux/amd64 docmost/docmost:latest
+--platform linux/amd64 postgres:13-alpine
+--platform linux/amd64 nginx:alpine
+--platform linux/amd64 mattermost/mattermost-enterprise-edition:10.5.2
 #支持指定架构
