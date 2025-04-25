@@ -1,4 +1,2 @@
---platform linux/amd64 postgres:13-alpine
---platform linux/amd64 nginx:alpine
---platform linux/amd64 mattermost/mattermost-enterprise-edition:10.5.2
+--platform linux/amd64 mattermost/mattermost-enterprise-edition:10.16.0
 #支持指定架构
