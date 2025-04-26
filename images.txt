@@ -1,2 +1,2 @@
---platform linux/amd64 mattermost/mattermost-enterprise-edition:10.16.0
+--platform linux/amd64 mattermost/mattermost-enterprise-edition:latest
 #支持指定架构
