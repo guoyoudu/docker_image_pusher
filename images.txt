@@ -1,2 +1,3 @@
---platform linux/amd64 mattermost/mattermost-enterprise-edition:latest
+#--platform linux/amd64 mattermost/mattermost-enterprise-edition:latest
+--platform linux/amd64 allinssl/allinssl:latest
 #支持指定架构
