@@ -1,11 +1,18 @@
+#mattermost
 #--platform linux/amd64 mattermost/mattermost-enterprise-edition:latest
+
+#SSL
 #--platform linux/amd64 allinssl/allinssl:latest
-#支持指定架构
+
+#jitsi
 # Web界面服务
---platform linux/amd64 jitsi/web:stable-10314 
+#--platform linux/amd64 jitsi/web:stable-10314 
 # 会议焦点控制服务
---platform linux/amd64 jitsi/jicofo:stable-10314
+#--platform linux/amd64 jitsi/jicofo:stable-10314
 # XMPP通信服
---platform linux/amd64 jitsi/prosody:stable-10314
+#--platform linux/amd64 jitsi/prosody:stable-10314
 # 视频桥接服务（关键多人会议支持）
---platform linux/amd64 jitsi/jvb:stable-10314
+#--platform linux/amd64 jitsi/jvb:stable-10314
+
+#gitlab
+--platform linux/amd64 gitlab/gitlab-ee:18.2.2-ee.0
