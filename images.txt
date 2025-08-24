@@ -21,4 +21,6 @@
 #--platform linux/amd64 gitea/gitea:latest
 
 #jenkins
---platform linux/amd64 jenkins/jenkins:lts-jdk17
+#--platform linux/amd64 jenkins/jenkins:lts-jdk17
+
+--platform linux/amd64 jenkins/agent:latest
