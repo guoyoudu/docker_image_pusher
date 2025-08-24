@@ -22,5 +22,6 @@
 
 #jenkins
 #--platform linux/amd64 jenkins/jenkins:lts-jdk17
+#--platform linux/amd64 jenkins/agent:latest
 
---platform linux/amd64 jenkins/agent:latest
+--platform linux/amd64 jenkins/inbound-agent:latest
