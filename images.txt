@@ -18,4 +18,7 @@
 #--platform linux/amd64 gitlab/gitlab-ee:18.2.2-ee.0
 
 #gitea
---platform linux/amd64 gitea/gitea:latest
+#--platform linux/amd64 gitea/gitea:latest
+
+#jenkins
+--platform linux/amd64 jenkins/jenkins:lts-jdk17
