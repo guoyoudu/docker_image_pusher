@@ -15,4 +15,7 @@
 #--platform linux/amd64 jitsi/jvb:stable-10314
 
 #gitlab
---platform linux/amd64 gitlab/gitlab-ee:18.2.2-ee.0
+#--platform linux/amd64 gitlab/gitlab-ee:18.2.2-ee.0
+
+#gitea
+--platform linux/amd64 gitea/gitea:latest
