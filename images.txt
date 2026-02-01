@@ -31,4 +31,5 @@
 #--platform linux/amd64 redis:latest
 #--platform linux/amd64 neo4j:latest
 #--platform linux/arm64 mongo:latest
---platform linux/arm64 python:3.9-slim
+#--platform linux/arm64 python:3.9-slim
+--platform linux/arm64 node:18-alpine
